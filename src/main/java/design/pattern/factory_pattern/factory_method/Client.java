@@ -1,9 +1,9 @@
 package design.pattern.factory_pattern.factory_method;
 
-import design_patterns.factory_pattern.PizzaType;
-import design_patterns.factory_pattern.factory_method.factories.DliPizzaStore;
-import design_patterns.factory_pattern.factory_method.factories.HydPizzaStore;
-import design_patterns.factory_pattern.factory_method.products.Pizza;
+import design.pattern.factory_pattern.PizzaType;
+import design.pattern.factory_pattern.factory_method.factories.DliPizzaStore;
+import design.pattern.factory_pattern.factory_method.factories.HydPizzaStore;
+import design.pattern.factory_pattern.factory_method.products.Pizza;
 
 public class Client {
     public static void main(String[] args) {

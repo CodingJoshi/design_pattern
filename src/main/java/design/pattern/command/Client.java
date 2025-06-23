@@ -1,8 +1,8 @@
 package design.pattern.command;
 
-import design_patterns.command.Reciever.Light;
-import design_patterns.command.Reciever.Stereo;
-import design_patterns.command.commands.*;
+import design.pattern.command.Reciever.Light;
+import design.pattern.command.Reciever.Stereo;
+import design.pattern.command.commands.*;
 
 public class Client {
     public static void main(String[] args) {

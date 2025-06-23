@@ -1,9 +1,9 @@
 package design.pattern.abstract_factory_pattern.factories;
 
-import design_patterns.abstract_factory_pattern.products.Button;
-import design_patterns.abstract_factory_pattern.products.ScrollBar;
-import design_patterns.abstract_factory_pattern.products.WindowsBtn;
-import design_patterns.abstract_factory_pattern.products.WindowsScrollbar;
+import design.pattern.abstract_factory_pattern.products.Button;
+import design.pattern.abstract_factory_pattern.products.ScrollBar;
+import design.pattern.abstract_factory_pattern.products.WindowsBtn;
+import design.pattern.abstract_factory_pattern.products.WindowsScrollbar;
 
 public class WindowsFactory implements UIFactory{
 

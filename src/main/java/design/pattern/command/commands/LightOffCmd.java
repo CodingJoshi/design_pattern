@@ -1,6 +1,6 @@
 package design.pattern.command.commands;
 
-import design_patterns.command.Reciever.Light;
+import design.pattern.command.Reciever.Light;
 
 public class LightOffCmd implements Command {
     /// Receiver, which is decoupled from invoker (remote) using this command

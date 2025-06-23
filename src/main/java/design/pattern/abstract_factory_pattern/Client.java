@@ -1,10 +1,10 @@
 package design.pattern.abstract_factory_pattern;
 
-import design_patterns.abstract_factory_pattern.factories.MacOsFactory;
-import design_patterns.abstract_factory_pattern.factories.UIFactory;
-import design_patterns.abstract_factory_pattern.factories.WindowsFactory;
-import design_patterns.abstract_factory_pattern.products.Button;
-import design_patterns.abstract_factory_pattern.products.ScrollBar;
+import design.pattern.abstract_factory_pattern.factories.MacOsFactory;
+import design.pattern.abstract_factory_pattern.factories.UIFactory;
+import design.pattern.abstract_factory_pattern.factories.WindowsFactory;
+import design.pattern.abstract_factory_pattern.products.Button;
+import design.pattern.abstract_factory_pattern.products.ScrollBar;
 
 public class Client {
     UIFactory uiFactory;

@@ -1,6 +1,6 @@
 package design.pattern.command.commands;
 
-import design_patterns.command.Reciever.Stereo;
+import design.pattern.command.Reciever.Stereo;
 
 public class StereoOffWithCDCmd implements Command {
     Stereo stereo;

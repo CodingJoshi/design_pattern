@@ -1,7 +1,7 @@
 package design.pattern.command;
 
-import design_patterns.command.commands.Command;
-import design_patterns.command.commands.NoCommand;
+import design.pattern.command.commands.Command;
+import design.pattern.command.commands.NoCommand;
 
 ///  Remote Control
 public class Invoker {

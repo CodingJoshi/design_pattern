@@ -1,10 +1,10 @@
 package design.pattern.factory_pattern.factory_method.factories;
 
-import design_patterns.factory_pattern.PizzaType;
-import design_patterns.factory_pattern.factory_method.products.HydStyleCheesePizza;
-import design_patterns.factory_pattern.factory_method.products.HydStylePepperoniPizza;
-import design_patterns.factory_pattern.factory_method.products.HydStyleVeggiePizza;
-import design_patterns.factory_pattern.factory_method.products.Pizza;
+import design.pattern.factory_pattern.PizzaType;
+import design.pattern.factory_pattern.factory_method.products.HydStyleCheesePizza;
+import design.pattern.factory_pattern.factory_method.products.HydStylePepperoniPizza;
+import design.pattern.factory_pattern.factory_method.products.HydStyleVeggiePizza;
+import design.pattern.factory_pattern.factory_method.products.Pizza;
 
 public class HydPizzaStore extends PizzaStore {
 
