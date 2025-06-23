@@ -1,0 +1,22 @@
+package design.pattern.command.commands;
+
+import design_patterns.command.Reciever.Light;
+
+public class LightOnCmd implements Command {
+    /// Receiver, which is decoupled from invoker (remote) using this command
+    Light light;
+
+    public LightOnCmd(Light light) {
+        this.light = light;
+    }
+
+    @Override
+    public void execute() {
+        light.onAction();
+    }
+
+    @Override
+    public void undo() {
+        light.offAction();
+    }
+}
