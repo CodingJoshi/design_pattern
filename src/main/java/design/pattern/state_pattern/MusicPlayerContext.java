@@ -13,7 +13,6 @@ public class MusicPlayerContext {
     private MusicPlayerState playingState;
     private MusicPlayerState pausedState;
     private MusicPlayerState stoppedState;
-    private MusicPlayerState currentState;
 
     private MusicPlayerState state;
 
@@ -21,18 +20,18 @@ public class MusicPlayerContext {
         playingState = new PlayingState();
         pausedState = new PausedState();
         stoppedState = new StoppedState();
-        currentState = stoppedState; // Initial state
+        state = stoppedState; // Initial state
     }
 
     public void pressPlay() {
-        currentState.pressPlay(this);
+        state.pressPlay(this);
     }
 
     public void pressPause() {
-        currentState.pressPause(this);
+        state.pressPause(this);
     }
 
     public void pressStop() {
-        currentState.pressStop(this);
+        state.pressStop(this);
     }
 }
