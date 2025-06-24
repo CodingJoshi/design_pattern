@@ -3,7 +3,6 @@ package design.pattern.behavioural.command;
 import design.pattern.behavioural.command.Reciever.Light;
 import design.pattern.behavioural.command.Reciever.Stereo;
 import design.pattern.behavioural.command.commands.*;
-import design.pattern.command.commands.*;
 
 public class Client {
     public static void main(String[] args) {
